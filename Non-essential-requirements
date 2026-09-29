@@ -1,0 +1,25 @@
+# Non-Functional Requirements
+
+## 1. Performance
+
+The system should respond quickly to user commands and display results without noticeable delay. Since the project handles a small number of campus records, searching and matching should be completed efficiently.
+
+## 2. Usability
+
+The system should be simple and easy to use through the terminal. Menu options should be clearly displayed, and users should receive understandable instructions and error messages when entering incorrect information.
+
+## 3. Reliability
+
+The system should perform its main operations consistently without unexpected termination. Valid lost and found item information should be processed correctly, and the matching and search functions should provide consistent results.
+
+## 4. Error Handling
+
+The system should handle common invalid inputs such as empty fields, invalid menu choices, incorrect item IDs, and incorrect date formats without crashing. The user should be asked to enter valid information again when necessary.
+
+## 5. Maintainability
+
+The program should be divided into separate functions and modules so that individual features can be modified or improved without changing the entire program. The code should also use clear function and variable names.
+
+## 6. Resource Efficiency
+
+The system should use basic Python data structures such as lists and dictionaries and should not require significant computer resources. It should be able to run on a normal computer using a Python interpreter.
